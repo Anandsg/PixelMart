@@ -4,8 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flipkart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/header.css" />
     <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/ItemsCategory.css" />
   </head>
   <body>
     <div class="header">
@@ -24,7 +31,29 @@
           />
         </div>
       </div>
-      <div class="right-section"></div>
+      <div class="right-section">
+        <div class="user">
+          <img class="user-icon" src="icons/user.png" alt="" />
+          <p class="login">Login</p>
+        </div>
+        <div class="cart">
+          <img class="cart-icon" src="icons/cart.png" alt="" />
+          <p class="Cart">Cart</p>
+        </div>
+        <div class="shop">
+          <img class="shop-icon" src="icons/shop.png" alt="" />
+          <p>Become a seller</p>
+        </div>
+        <div class="dots">
+          <img class="dots-icon" src="icons/dots.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="secondary-container">
+      <div class="category-container">
+        <img class="grocery" src="items/grocery.png" alt="" />
+        <p class="grocery-text">Grocery</p>
+      </div>
     </div>
   </body>
 </html>

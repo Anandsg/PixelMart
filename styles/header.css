@@ -36,3 +36,46 @@
 .search-icon {
   height: 20px;
 }
+
+.right-section {
+  display: flex;
+  align-items: center;
+}
+.user {
+  display: flex;
+  align-items: center;
+}
+.user-icon {
+  height: 25px;
+  margin-right: 10px;
+}
+
+.cart-icon {
+  margin-right: 10px;
+  height: 25px;
+  margin-left: 50px;
+}
+.cart {
+  display: flex;
+  align-items: center;
+}
+.shop {
+  display: flex;
+  align-items: center;
+  margin-right: 9px;
+}
+.shop-icon {
+  height: 25px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+.dots-icon {
+  height: 25px;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 15px;
+}

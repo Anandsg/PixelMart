@@ -1,0 +1,25 @@
+.secondary-container {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 20px;
+  gap: 50px;
+  height: 120px;
+  margin-right: 20px;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 0.5px lightgray;
+}
+
+.grocery {
+  height: 60px;
+  margin-top: 18px;
+}
+
+.category-container {
+  margin-left: 50px;
+}
+.grocery-text {
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: Roboto, Arial;
+}
