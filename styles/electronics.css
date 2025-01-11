@@ -17,6 +17,7 @@
   margin-bottom: 15px;
   height: 120px;
   padding: 5px;
+  cursor: pointer;
 }
 .electronics-container {
   display: flex;
