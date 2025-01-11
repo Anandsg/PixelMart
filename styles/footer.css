@@ -1,0 +1,46 @@
+.footer-container {
+  background-color: #353a46;
+  color: white;
+  padding: 40px 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: Roboto, Arial;
+  padding: 50px;
+}
+
+.about-header,
+.group-companies-header,
+.help-header,
+.registered-office-header {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: rgb(148, 148, 148);
+}
+
+.about-us-container,
+.group-companies-container,
+.help-container,
+.registered-office-container {
+  flex: 1 1 200px;
+  font-size: 13px;
+}
+
+.about-us-container p,
+.group-companies-container p,
+.help-container p {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.registered-office-container p {
+  margin-bottom: 3px;
+}
+.about-us-container p:hover,
+.group-companies-container p:hover,
+.help-container p:hover {
+  text-decoration: underline;
+}
