@@ -30,5 +30,5 @@
 .offers img {
   height: 200px;
   margin: 20px;
-  width: clamp(1400px, 10%, 100px);
+  width: clamp(1385px, 10%, 100px);
 }
